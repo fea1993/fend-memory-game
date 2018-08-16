@@ -27,11 +27,11 @@ You can load the game in the following two ways:
 The game includes 16 cards and 8 pairs. Each pair of cards has their own unique icon on its hidden side. 
 
 Each turn: 
-1) Click on a card, reveal its icon and remember its position in the grid. 
-2) Click on a new card and see if it match
-	2a) If the two flipped cards match, both cards turn green and stay flipped
-	2b) If the cards do not match, both cards return to their hidden state
-3) The game ends once all cards are matched correctly into 8 pairs
+* Click on a card, reveal its icon and remember its position in the grid. 
+* Click on a new card and see if it match
+	* If the two flipped cards match, both cards turn green and stay flipped
+	* If the cards do not match, both cards return to their hidden state
+* The game ends once all cards are matched correctly into 8 pairs
 
 ### Winning the Game
 As the game ends, a box will pop-up showing the: 
