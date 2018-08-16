@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            Moves: <span class="moves">0</span>
+            - 
+            <span class="clock">0:00</span>        	
+            -
+            Rating: 
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+
+            <div class="restart" onclick=resetGame()>
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+            <!-- Match One -->
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <!-- Match Two -->            
+            <li class="card" type="paper-plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" type="paper-plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <!-- Match Three --> 
+            <li class="card" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+
+            <!-- Match Four --> 
+            <li class="card" type="bolt">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="bolt">
+                <i class="fa fa-bolt"></i>
+            </li>            
+
+            <!-- Match Five --> 
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+
+            <!-- Match Six --> 
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+
+            <!-- Match Seven --> 
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+
+            <!-- Match Eight --> 
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="modal-background hide">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h1 class="modal-title" style="margin: 3px;">Stats</h1>
+                <span class="modal-close" onclick=showModal()>x</span>
+            </div>
+            <div class="modal-stats">
+                <span class="modal-moves">Your number of moves = </span>
+                <span class="modal-time">Your time = </span>
+                <span class="modal-rating">Your rating =  </span>
+            </div>
+            <div class="modal-btns">
+                <button class="modal-btn modal-cancel" onclick=showModal()>Cancel</button>
+                <button class="modal-btn modal-replay" onclick=replayGame()>Replay</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
