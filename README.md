@@ -5,7 +5,7 @@ This game has been developed as part of the third module in Udacity's FEND progr
 ## Table of Contents
 
 * [How To Play](#howtoplay)
-** [Loading the Game](#loadingthegame)
+*- [Loading the Game](#loadingthegame)
 ** [Playing the Game](#playingthegame)
 ** [Winning the Game](#winningthegame)
 ** [Screenshots](#screenshots)
