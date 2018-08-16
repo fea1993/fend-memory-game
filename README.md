@@ -19,8 +19,8 @@ Follow the instructions below to start and play the game.
 ### Loading the Game
 You can load the game in the following two ways:
 
-- Clone or download the **[repo](https://github.com/sarah-maris/memory-game.git)** and open index.html, or;
-- Play on github.io: **[Memory Game](https://sarah-maris.github.io/pokematch/)**
+- Clone or download the **[repo](https://github.com/fea1993/fend-memory-game.git)** and open index.html, or;
+- Play on github.io: **[Memory Game](https://fea1993.github.io/fend-memory-game/)**
 
 
 ### Playing the Game
