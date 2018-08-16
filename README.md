@@ -38,7 +38,10 @@ As the game ends, a box will pop-up showing the:
 
 - number of moves taken to pair the 16 cards. A move is counted everytime two cards have been turned.  
 - time it has taken to pair the 16 cards
-- star-based rating of one's performance (3 stars = less than than 16 moves; 2 stars = between 16 and 20 moves; 1 star = more than 20 moves)
+- star-based rating of one's performance
+	- 3 stars = less than than 16 moves;
+	- 2 stars = between 16 and 20 moves;
+	- 1 star = more than 20 moves
 
 This means that the goal of the game is to pair all cards with fewest moves possible and as fast as possible. Keep track of your progress and improve your performance by noting your number of moves, time-spend and resulting star-rating. 
 
