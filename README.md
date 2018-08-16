@@ -5,12 +5,12 @@ This game has been developed as part of the third module in Udacity's FEND progr
 ## Table of Contents
 
 * [How To Play](#howtoplay)
-	* [Loading the Game](#loadingthegame)
-	* [Playing the Game](#playingthegame)
-	* [Winning the Game](#winningthegame)
+	* [Loading the Game](#loading-the-game)
+	* [Playing the Game](#playing-the-game)
+	* [Winning the Game](#winning-the-game)
 	* [Screenshots](#screenshots)
 * [Resources](#resources)
-	* [Udacity Resources](#udacity resources)
+	* [Udacity Resources](#udacity-resources)
 
 ## How To Play 
 This is a memory game based on matching cards in pairs. 
